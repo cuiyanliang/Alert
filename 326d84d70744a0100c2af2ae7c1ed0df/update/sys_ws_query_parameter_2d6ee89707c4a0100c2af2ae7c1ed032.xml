@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="INSERT_OR_UPDATE">
+        <example_value>description=zzzzzzzzzzzzzzzzzzzzzz</example_value>
+        <name>description</name>
+        <required>true</required>
+        <short_description>詳細内容を入力</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 09:04:04</sys_created_on>
+        <sys_id>2d6ee89707c4a0100c2af2ae7c1ed032</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>description</sys_name>
+        <sys_package display_value="Alert" source="x_545800_alert">326d84d70744a0100c2af2ae7c1ed0df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_2d6ee89707c4a0100c2af2ae7c1ed032</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 07:12:00</sys_updated_on>
+        <web_service_definition display_value="insertAlert(restAPI)">e8e854930784a0100c2af2ae7c1ed062</web_service_definition>
+    </sys_ws_query_parameter>
+</record_update>

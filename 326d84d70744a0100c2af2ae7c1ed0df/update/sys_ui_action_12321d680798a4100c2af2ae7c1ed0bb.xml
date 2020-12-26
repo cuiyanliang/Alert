@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>sysverb_update</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>State to 解消</comments>
+        <condition>current.isValidRecord() &amp;&amp; current.canWrite() &amp;&amp; gs.getProperty('glide.ui.update_is_submit') != 'true'</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>State to 解消</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages>State to 解消</messages>
+        <name>解消</name>
+        <onclick/>
+        <order>200</order>
+        <script><![CDATA[current.setValue('approval', 'approved');
+current.setValue('u_state', '3');
+current.update();
+var approver = new GlideRecord('sysapproval_approver');
+var approvalUserFeedback = new global.ApprovalUserFeedback();
+approver.addActiveQuery();
+approver.addQuery('document_id', '=', current.getValue('sys_id'));
+approver.query();
+while (approver.next()) {
+    approver.state = 'approved';
+    approver.update();
+    approvalUserFeedback.approved(approver);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 08:54:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>12321d680798a4100c2af2ae7c1ed0bb</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>解消</sys_name>
+        <sys_overrides display_value="Update">sysverb_post_update</sys_overrides>
+        <sys_package display_value="Alert" source="x_545800_alert">326d84d70744a0100c2af2ae7c1ed0df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</sys_scope>
+        <sys_update_name>sys_ui_action_12321d680798a4100c2af2ae7c1ed0bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-10 08:49:09</sys_updated_on>
+        <table>x_545800_alert_alert</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

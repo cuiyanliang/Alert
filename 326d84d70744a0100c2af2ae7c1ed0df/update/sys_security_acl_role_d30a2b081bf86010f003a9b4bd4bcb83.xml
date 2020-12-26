@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-26 03:19:15</sys_created_on>
+        <sys_id>d30a2b081bf86010f003a9b4bd4bcb83</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_545800_alert_alert.x_545800_alert.user</sys_name>
+        <sys_package display_value="Alert" source="x_545800_alert">326d84d70744a0100c2af2ae7c1ed0df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</sys_scope>
+        <sys_security_acl display_value="x_545800_alert_alert">d89427c01bf86010f003a9b4bd4bcb30</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_d30a2b081bf86010f003a9b4bd4bcb83</sys_update_name>
+        <sys_updated_by>fred.luddy</sys_updated_by>
+        <sys_updated_on>2020-11-26 05:28:35</sys_updated_on>
+        <sys_user_role display_value="x_545800_alert.user" name="x_545800_alert.user">2b9f24e70704e0100c2af2ae7c1ed09b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

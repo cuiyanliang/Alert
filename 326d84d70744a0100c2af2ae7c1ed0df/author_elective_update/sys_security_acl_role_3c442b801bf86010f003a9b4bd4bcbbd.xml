@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-26 02:45:37</sys_created_on>
+        <sys_id>3c442b801bf86010f003a9b4bd4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_545800_alert.user</sys_name>
+        <sys_package display_value="Alert" source="x_545800_alert">326d84d70744a0100c2af2ae7c1ed0df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</sys_scope>
+        <sys_security_acl display_value="">b7342b801bf86010f003a9b4bd4bcb5c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_3c442b801bf86010f003a9b4bd4bcbbd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-26 02:45:37</sys_updated_on>
+        <sys_user_role display_value="x_545800_alert.user" name="x_545800_alert.user">2b9f24e70704e0100c2af2ae7c1ed09b</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</application>
+        <file_path/>
+        <instance_id>2939ac34db4cc8509df22f17d49619dd</instance_id>
+        <instance_name>dev93516</instance_name>
+        <name>sys_security_acl_role_3c442b801bf86010f003a9b4bd4bcbbd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-11-26 02:45:37</sys_created_on><sys_id>3c442b801bf86010f003a9b4bd4bcbbd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.x_545800_alert.user</sys_name><sys_package display_value="Alert" source="x_545800_alert">326d84d70744a0100c2af2ae7c1ed0df</sys_package><sys_policy/><sys_scope display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</sys_scope><sys_security_acl display_value="">b7342b801bf86010f003a9b4bd4bcb5c</sys_security_acl><sys_update_name>sys_security_acl_role_3c442b801bf86010f003a9b4bd4bcbbd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-11-26 02:45:37</sys_updated_on><sys_user_role display_value="x_545800_alert.user" name="x_545800_alert.user">2b9f24e70704e0100c2af2ae7c1ed09b</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-219800423</payload_hash>
+        <record_name>.x_545800_alert.user</record_name>
+        <reverted_from/>
+        <source>0cd6533f1bac2010f003a9b4bd4bcb60</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-26 02:45:37</sys_created_on>
+        <sys_id>bb54a3c01bf86010f003a9b4bd4bcbeb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176027121d10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-26 02:45:37</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f354a3c070f86010fc17602cdc3673eb</update_guid>
+        <update_guid_history>f354a3c070f86010fc17602cdc3673eb:-219800423</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".x_545800_alert.user">8779e3081bf86010f003a9b4bd4bcb67</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-26 03:07:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1a89b86ccefa4ef49bd1d8ab94d28790</sys_id>
+        <sys_metadata>3c442b801bf86010f003a9b4bd4bcbbd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_545800_alert.user</sys_name>
+        <sys_package display_value="Alert" source="x_545800_alert">326d84d70744a0100c2af2ae7c1ed0df</sys_package>
+        <sys_parent display_value="x_545800_alert_alert">b7342b801bf86010f003a9b4bd4bcb5c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</sys_scope>
+        <sys_scope_delete display_value="">2ad100ddac224e3c8f3e478dc9f26364</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_3c442b801bf86010f003a9b4bd4bcbbd</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_3c442b801bf86010f003a9b4bd4bcbbd">bb54a3c01bf86010f003a9b4bd4bcbeb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-26 03:07:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

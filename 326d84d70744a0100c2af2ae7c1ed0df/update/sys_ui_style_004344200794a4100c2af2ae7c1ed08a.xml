@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_style">
+    <sys_ui_style action="INSERT_OR_UPDATE">
+        <alt/>
+        <element>u_date</element>
+        <name>x_545800_alert_alert</name>
+        <style>background-color:lightgreen</style>
+        <sys_class_name>sys_ui_style</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-02 03:07:54</sys_created_on>
+        <sys_id>004344200794a4100c2af2ae7c1ed08a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_545800_alert_alert</sys_name>
+        <sys_package display_value="Alert" source="x_545800_alert">326d84d70744a0100c2af2ae7c1ed0df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</sys_scope>
+        <sys_update_name>sys_ui_style_004344200794a4100c2af2ae7c1ed08a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-02 03:07:54</sys_updated_on>
+        <value>javascript: current.u_date &gt;  new GlideDateTime() &amp;&amp; current.u_state == 2;</value>
+    </sys_ui_style>
+    <sys_translated_text action="delete_multiple" query="documentkey=004344200794a4100c2af2ae7c1ed08a"/>
+</record_update>

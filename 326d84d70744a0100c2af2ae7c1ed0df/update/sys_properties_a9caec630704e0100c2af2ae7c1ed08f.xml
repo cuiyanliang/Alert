@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>アラート activity formatter fields</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.ui.x_545800_alert_alert_activity.fields</name>
+        <read_roles/>
+        <suffix>x_545800_alert</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-30 03:26:22</sys_created_on>
+        <sys_id>a9caec630704e0100c2af2ae7c1ed08f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>glide.ui.x_545800_alert_alert_activity.fields</sys_name>
+        <sys_package display_value="Alert" source="x_545800_alert">326d84d70744a0100c2af2ae7c1ed0df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</sys_scope>
+        <sys_update_name>sys_properties_a9caec630704e0100c2af2ae7c1ed08f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-13 04:51:28</sys_updated_on>
+        <type>string</type>
+        <value>number,u_state,u_date,u_description,u_user,u_user_to,comments_and_work_notes</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=a9caec630704e0100c2af2ae7c1ed08f"/>
+</record_update>

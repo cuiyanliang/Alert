@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_widgets">
+    <sys_widgets action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <name>Alert Widget</name>
+        <order>100</order>
+        <renderer/>
+        <renderer_type>javascript</renderer_type>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_widgets</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-01 13:09:52</sys_created_on>
+        <sys_id>873305d0071c64100c2af2ae7c1ed0e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Alert Widget</sys_name>
+        <sys_package display_value="Alert" source="x_545800_alert">326d84d70744a0100c2af2ae7c1ed0df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Alert">326d84d70744a0100c2af2ae7c1ed0df</sys_scope>
+        <sys_update_name>sys_widgets_873305d0071c64100c2af2ae7c1ed0e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-01 13:09:52</sys_updated_on>
+        <top_level_category>false</top_level_category>
+    </sys_widgets>
+</record_update>
